@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #FBFBFB 10px solid;
+  }
+.header-link{
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.header-link > a {
+    text-decoration: none;
+    color: #06631A;
+}
+
+.header-div-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-div-input > input{
+    background-color: #EDEDED;
+    outline: none;
+    background-image: url(../../../../assets/search.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 6px;
+    width: 250px;
+    color: #333333;
+}
