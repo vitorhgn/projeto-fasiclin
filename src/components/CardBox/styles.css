@@ -1,0 +1,27 @@
+.card-box > .img-card-box > img{
+    width: 100%;
+}
+.card-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid #DDDDDD;
+}
+.card-box:hover {
+    filter: brightness(0.7);
+    cursor: pointer;
+}
+.card-box-text {
+    padding: 0 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.card-box > .card-box-text > span {
+    color: #009A3D;
+    font-size: 12px;
+    font-weight: 500;
+}
+.card-box > .card-box-text > p {
+    font-weight: 600;
+}
