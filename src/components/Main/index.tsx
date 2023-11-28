@@ -8,6 +8,7 @@ import img1 from "../../../assets/imgCardBox1.svg";
 import img2 from "../../../assets/imgCardBox2.svg";
 import img3 from "../../../assets/imgCardBox3.svg";
 import SectionEMec from "../SectionEMec";
+import SectionNoticias from '../SectionNoticias';
 
 const Main: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const Main: React.FC = () => {
         </div>
       </div>
       <SectionEMec />
+      <SectionNoticias/>
     </>
   );
 };
