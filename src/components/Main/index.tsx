@@ -2,6 +2,8 @@ import React from "react";
 
 import "./styles.css";
 import CardBox from "../CardBox";
+import img from "../../../assets/imgPrincipal.svg";
+
 
 // Isso deveria vir do banco de dados dinamicamente
 import img1 from "../../../assets/imgCardBox1.svg";
@@ -17,7 +19,7 @@ const Main: React.FC = () => {
     <>
       <div className="section-img-card">
         <div className="card-img-principal">
-          <img src="../../../assets/imgPrincipal.svg" alt="" />
+          <img src={img} alt="" />
         </div>
         <div className="card-noticias">
           <CardBox img={img1} />

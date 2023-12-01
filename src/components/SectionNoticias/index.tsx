@@ -2,7 +2,9 @@ import React from "react";
 
 // import { Container } from './styles';
 
-
+import conteudoNotificasImagem1 from "../../../assets/conteudoNotificasImagem1.png"
+import conteudoNotificasImagem2 from "../../../assets/conteudoNotificasImagem2.png"
+import conteudoNotificasImagem3 from "../../../assets/conteudoNotificasImagem3.png"
 import "./styles.css";
 
 const SectionNoticias: React.FC = () => {
@@ -18,13 +20,13 @@ const SectionNoticias: React.FC = () => {
       </div>
       <div className="conteudo-noticias-images">
         <div>
-          <img src="../../../assets/conteudoNotificasImagem1.png" alt="" />
+          <img src={conteudoNotificasImagem1} alt="" />
         </div>
         <div>
-          <img src="../../../assets/conteudoNotificasImagem2.png" alt="" />
+          <img src={conteudoNotificasImagem2} alt="" />
         </div>
         <div>
-          <img src="../../../assets/conteudoNotificasImagem3.png" alt="" />
+          <img src={conteudoNotificasImagem3} alt="" />
         </div>
       </div>
     </div>

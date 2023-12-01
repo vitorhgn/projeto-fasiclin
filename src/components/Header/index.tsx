@@ -1,5 +1,7 @@
 import React from 'react';
 
+import img from "../assets/logo.png"
+
 import "./style.css"
 
 
@@ -7,7 +9,7 @@ const Header: React.FC = () => {
   return (
     <header className='header'>
     <div>
-      <img src="../assets/logo.png" alt="" />
+      <img src={img} alt="" />
     </div>
     <div className='header-link'>
       <a href="">HOME</a>
