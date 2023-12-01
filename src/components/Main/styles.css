@@ -1,3 +1,7 @@
+.section-img-card {
+    max-width: 1180px;
+    margin: 0 auto;
+}
 .section-img-card > .card-img-principal > img {
 width: 100%;
 }

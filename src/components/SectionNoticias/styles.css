@@ -1,6 +1,8 @@
 .section-noticias-container{
     background-color: #fff;
     padding: 45px 0;
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 .conteudo-noticias-container{

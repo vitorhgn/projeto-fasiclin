@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: #FBFBFB 10px solid;
+  max-width: 1180px;
+margin: 0 auto;
   }
 .header-link{
     display: flex;

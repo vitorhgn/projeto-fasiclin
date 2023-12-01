@@ -1,0 +1,25 @@
+.section-novidades-main {
+  background-color: #7f7f7f1f;
+}
+
+.section-novidades-img {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 30px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.section-novidades-img > div {
+  padding: 16px 22px;
+  color: #06631a;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}

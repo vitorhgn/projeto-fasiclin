@@ -6,6 +6,7 @@
     flex-direction: column;
     gap: 5px;
     border: 1px solid #DDDDDD;
+    margin-bottom: 50px;
 }
 .card-box:hover {
     filter: brightness(0.7);
