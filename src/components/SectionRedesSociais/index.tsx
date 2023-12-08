@@ -24,6 +24,8 @@ const RedesSociais: React.FC = () => {
         </div>
         <div className="redes-sociais-fasiclin">
           <div>
+            <a href="https://www.facebook.com/faculdadefasipe" target='_blank'><i className="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/fasipecuiaba" target='_blank'><i className="fa-brands fa-youtube"></i></a>
             <a href="https://www.instagram.com/fasiclin/" target='_blank'><i className="fa-brands fa-instagram"></i></a>
           </div>
         </div>

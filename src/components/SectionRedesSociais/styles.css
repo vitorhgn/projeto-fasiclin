@@ -31,6 +31,29 @@ margin-bottom: 8px;
   font-size: 36px;
   transition: all .2s;
 }
+.redes-sociais-fasiclin > div > a > i{
+  color: #FFF;
+  font-size: 36px;
+  transition: all .2s;
+}
 .redes-sociais-fasiclin > div > a:hover {
   filter: brightness(0.8);
+}
+.redes-sociais-fasiclin > div{
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 1250px) {
+  .section-redes-sociais-main {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 600px) {
+  .section-redes-sociais{
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -34,3 +34,21 @@ margin: 0 auto;
     width: 250px;
     color: #333333;
 }
+
+@media(max-width: 600px ){
+    .header {
+        padding: 15px 0px;
+    }
+    .header >div > img {
+        display: none;
+    }
+    .header-div-input > input{
+        display: none;
+    }
+    .header-link{
+        display: flex;
+        gap: 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+}

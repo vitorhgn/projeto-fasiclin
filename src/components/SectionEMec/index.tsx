@@ -9,7 +9,7 @@ import imgLogoEmec from  "../../../assets/imgLogoEmec.svg"
 const SectionEMec: React.FC = () => {
   return <div className='section-emec-main'>
     <div className='section-emec-img'>
-        <img src={imgEmecQrCode} alt="" />
+        <img id='qrCode' src={imgEmecQrCode} alt="" />
         <img src={imgAvaliacaoEmec} alt="" />
         <img src={imgLogoEmec} alt="" />
     </div>

@@ -12,10 +12,10 @@ const SectionNoticias: React.FC = () => {
     <div className="section-noticias-container">
       <div className='conteudo-noticias-container'>
         <div className="conteudo-noticias-button">
-          <a href="">Acesse mais notícias da saúde</a>
+          <a href="https://www.fasipecuiaba.com.br/imprensa/noticias" target='_blank'>Acesse mais notícias</a>
         </div>
         <div className="conteudo-noticias-button">
-        <a href="">Acesse Notícias para os estados</a>
+        <a href="https://www.fasipecuiaba.com.br/imprensa/palavra-do-diretor" target='_blank'>Acesse palavras do diretor</a>
         </div>
       </div>
       <div className="conteudo-noticias-images">

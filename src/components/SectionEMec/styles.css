@@ -14,9 +14,19 @@
     /* width: 100%; */
 }
 
-@media (max-width: 870px) {
-    /* .section-emec-img{
-        flex-direction: column;        
-    } */
+@media (max-width: 850px) {
+    .section-emec-img{
+        flex-direction: column;  
+        align-items: center;
+        width: 100%;
+        gap: 30px;      
+    }
+    .section-emec-img > img{
+        width: 50%; 
+        height: 100px;
+    }
+    #qrCode{
+        display: none;
+    }
     
 }

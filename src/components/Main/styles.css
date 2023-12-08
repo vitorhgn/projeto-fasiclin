@@ -12,3 +12,14 @@ width: 100%;
     grid-template-columns: repeat(3,1fr);
     gap: 45px;
 }
+
+@media (max-width:600px) {
+    .card-noticias {
+        padding-top: 30px;
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1,1fr);
+        gap: 45px;
+    }
+}
